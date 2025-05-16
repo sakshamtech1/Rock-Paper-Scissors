@@ -3,6 +3,7 @@ import random
 # Global valid moves
 moves = ['rock', 'paper', 'scissors']
 
+
 # Helper function to check which move beats the other
 def beats(one, two):
     return ((one == 'rock' and two == 'scissors') or
